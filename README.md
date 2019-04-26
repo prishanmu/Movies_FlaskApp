@@ -50,7 +50,7 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 
 ### General
 - [X] Project is submitted as a Github repository
-- [X]  Project includes a working Flask application that runs locally on a computer
+- [X]  Project includes a working Flask application that runs locally on a computer (not every route works, but yes)
 - [X] Includes a clear and readable README.md that follows this template
 - [X] Includes a sample .sqlite/.db file
 - [X] Includes a diagram of your database schema
