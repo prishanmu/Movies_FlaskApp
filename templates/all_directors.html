@@ -1,0 +1,12 @@
+<ul>
+{% for nm in director_names %}
+<li>{{ nm[0] }}: {%if nm[1] == 1 %} {{ nm[1]}} song {% else %} {{ nm[1] }} songs {% endif %} </li><br>
+{% endfor %}
+</ul>
+
+{% if not director_names %}
+There are no saved directors to show.
+{% endif %}
+
+
+<a href="{{ url_for('index')}}">Return to home page</a>

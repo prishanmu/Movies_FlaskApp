@@ -1,0 +1,13 @@
+
+<ul>
+{% for mv in all_movies %}
+<li>{{ mv[0] }} by {{ mv[1] }} - {{ mv[2] }}</li><br>
+{% endfor %}
+</ul>
+
+{% if not all_movies %}
+There are no saved favorite movies to show.
+{% endif %}
+
+
+<a href="{{ url_for('index')}}">Return to home page</a>
