@@ -50,9 +50,7 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 
 ### General
 - [X] Project is submitted as a Github repository
-- [X  Project includes a working Flask application that runs locally on a computer
-- [ ] Project includes at least 1 test suite file with reasonable tests in it.
-- [ ] Includes a `requirements.txt` file containing all required modules to run program
+- [X]  Project includes a working Flask application that runs locally on a computer
 - [X] Includes a clear and readable README.md that follows this template
 - [X] Includes a sample .sqlite/.db file
 - [X] Includes a diagram of your database schema
