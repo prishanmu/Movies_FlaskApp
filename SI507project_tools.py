@@ -1,7 +1,4 @@
 #__author__ == "Priyanka Shanmugasundaram (pshanmu)"
-# note: most of this code is modified from lecture
-import StringIO
-import base64
 import os
 from flask import Flask, render_template, session, redirect, url_for # tools that will make it easier to build on things
 from flask_sqlalchemy import SQLAlchemy # handles database stuff for us - need to pip install flask_sqlalchemy in your virtual env, environment, etc to use this and run this
