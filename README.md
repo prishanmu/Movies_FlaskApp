@@ -18,13 +18,18 @@ This project has several routes that help a user input movies into the database,
 
 ## How to use
 
-1. Follow the routes to get to each part of the application
-2. Use the forms to input new data 
+1. Follow the routes to get to each part of the application - links to most routes are in the index, or explained in the index.
+2. To input movies, you must still use the route from Project 3. 
+3. After some movies are added, the other links will be more useful (all movies, all directors, top movies, ratings visualized)
+
 
 ## Routes in this application
-- `/movie/new` -> this is where to input new movies to the database
-- `/top_movies` -> this route lists all movies that have an imdb rating of 8 or above. 
-- `/ratings/<genre>` -> this route takes an input and shows a boxplot of the ratings in a genre. 
+- `/` -> the index, where you can click on links to (newly added for Final Project)
+- `/all_movies` -> a list of all movies in database, part of Project 3
+- `/all_directors` -> a list of all directors in database, part of Project 3
+- `/top_movies` -> this route lists all movies that have an imdb rating of 8 or above, newly added for Final Project
+- `/ratings/visualized` -> this route shows a histogram with the distribution of ratings within the database, newly added for Final Project
+- `/movie/new/<title>/<genre>/<director>/<rating>` -> takes an input to add a movie to the database, part of Project 3. 
 
 ## How to run tests
 1. First install requirements.txt
@@ -36,9 +41,12 @@ This project has several routes that help a user input movies into the database,
   - all_movies.html
   - all_directors.html
   - forms.html
-  - rating_distribution.html
 - SI507project_tools.py
 - SI507project_tests.py
+- movies.db
+- DB Schema.png
+- homepage_links.PNG -> screenshot to show what the app looks like when working
+- ratings_visualized.PNG -> screenshot to show what the app looks like when working
 
 ---
 ## Code Requirements for Grading
@@ -65,14 +73,14 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 - [X] Information stored in the database is viewed or interacted with in some way
 
 ### Additional Components (at least 6 required)
-- [X] Use of a new module (Seaborn)
+- [X] Use of a new module (PyPlot)
 - [X] Use of a second new module (WTForms)
-- [X] Object definitions using inheritance (indicate if this counts for 2 or 3 of the six requirements in a parenthetical)
+- [ ] Object definitions using inheritance (indicate if this counts for 2 or 3 of the six requirements in a parenthetical)
 - [X] A many-to-many relationship in your database structure
-- [X] At least one form in your Flask application
+- [ ] At least one form in your Flask application
 - [X] Templating in your Flask application
 - [ ] Inclusion of JavaScript files in the application
-- [ ] Links in the views of Flask application page/s
+- [X] Links in the views of Flask application page/s
 - [ ] Relevant use of `itertools` and/or `collections`
 - [ ] Sourcing of data using web scraping
 - [ ] Sourcing of data using web REST API requests
