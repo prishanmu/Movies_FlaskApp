@@ -74,7 +74,7 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 
 ### Additional Components (at least 6 required)
 - [X] Use of a new module (PyPlot)
-- [X] Use of a second new module (WTForms)
+- [X] Use of a second new module (Seaborn)
 - [ ] Object definitions using inheritance (indicate if this counts for 2 or 3 of the six requirements in a parenthetical)
 - [X] A many-to-many relationship in your database structure
 - [ ] At least one form in your Flask application
