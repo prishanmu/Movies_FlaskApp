@@ -1,0 +1,11 @@
+<div class="page-header">
+    <h1>{% if num_movies %}{{ num_movies }}{% else %}0{% endif %} movies saved.</h1>
+
+    <body>
+    <p><a href="{{ url_for('all_movies') }}">Check out all movies in this app!</a></p>
+    <p><a href="{{ url_for('all_directors') }}">Check out all directors in this app!</a></p>
+    <p><a href="{{ url_for('see_top_movies') }}">Check out top rated movies in this app!</a></p>
+    <p><a href="{{ url_for('see_ratings') }}">Check out the distribution of ratings for movies on this app!</a></p>
+    <p>To a new movie to this app, add this to the base url: "/movies/new/title/genre/director/rating" where title, genre, director, and rating are inputs YOU give</p>
+</body>
+</div>
