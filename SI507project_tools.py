@@ -172,6 +172,7 @@ def see_ratings():
     for m in movies:
         movie_ratings.append(m.imdb_rating)
     img = io.BytesIO()
+    sns.set_palette('colorblind')
     plt.hist(movie_ratings)
     plt.xlabel('Ratings')
     plt.title('Distribution of Ratings Among Movies in this Database')
